@@ -12,14 +12,14 @@
 style "notify-window"
 {
   XfceNotifyWindow::summary-bold = 1
-  XfceNotifyWindow::border-color = "#222D32"
-  XfceNotifyWindow::border-color-hover = "#222D32"
+  XfceNotifyWindow::border-color = "#282C34"
+  XfceNotifyWindow::border-color-hover = "#282C34"
   XfceNotifyWindow::border-radius = 2.0
   XfceNotifyWindow::border-width = 0.1
   XfceNotifyWindow::border-width-hover = 0.1
 
-  bg[NORMAL] = "#222D32"
-  bg[PRELIGHT] = "#222D32"
+  bg[NORMAL] = "#282C34"
+  bg[PRELIGHT] = "#282C34"
 }
 
 style "notify-button"
@@ -27,9 +27,9 @@ style "notify-button"
   xthickness = 5
   ythickness = 5
 
-  # bg[NORMAL] = "#222D32"
-  # bg[PRELIGHT] = "#222D32"
-  # bg[ACTIVE] = "#222D32"
+  # bg[NORMAL] = "#282C34"
+  # bg[PRELIGHT] = "#282C34"
+  # bg[ACTIVE] = "#282C34"
   fg[NORMAL] = "#47A49C"
   fg[PRELIGHT] = "#4DB6AC"
   fg[ACTIVE] = "#4DB6AC"

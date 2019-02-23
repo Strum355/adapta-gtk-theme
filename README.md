@@ -1,4 +1,4 @@
-<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/logo_thumb.png" alt="Logo" align="left" /> Adapta-gtk-theme
+<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/logo_thumb.png" alt="Logo" align="left" /> Adapta-Noah-gtk-theme
 ======
 
 An adaptive Gtk+ theme based on Material Design Guidelines.
@@ -12,7 +12,7 @@ An adaptive Gtk+ theme based on Material Design Guidelines.
 -----------
  * Reverted all changes to 3.94.0.x.
 
-Before using Adapta
+Before using Adapta-Noah
 -------------------
 
 #### Typography
@@ -59,7 +59,7 @@ That's the reason why `13.33px = 10pt` is used for rem/px conversion in Gtk+ 3.2
 Variant Matrix
 --------------
 
-| |<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/sunlight.png" align="left"/> Adapta|<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/moon.png" align="left"/> Adapta-Nokto|<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/sunlight-eta.png" align="left"/> Adapta-Eta|<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/moon-eta.png" align="left"/> Adapta-Nokto-Eta|
+| |<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/sunlight.png" align="left"/> Adapta|<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/moon.png" align="left"/> Adapta-Noah-Nokto|<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/sunlight-eta.png" align="left"/> Adapta-Noah-Eta|<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/moon-eta.png" align="left"/> Adapta-Noah-Nokto-Eta|
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 |Gtk+ 2.24.x |<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/check-on.png" align="center" />|<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/check-on.png" align="center" />|<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/check-on.png" align="center" />|<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/check-on.png" align="center" />|
 |Gtk+ 3.20.x |<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/check-on.png" align="center" />|<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/check-on.png" align="center" />|<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/check-on.png" align="center" />|<img src="https://github.com/adapta-project/adapta-github-resources/blob/master/images/check-on.png" align="center" />|
@@ -138,9 +138,9 @@ Installation from Git Source
 1. If previous versions were installed/existed, remove them first.
 
  ```
- sudo rm -rf /usr/share/themes/{Adapta,Adapta-Eta,Adapta-Nokto,Adapta-Nokto-Eta}
- rm -rf ~/.local/share/themes/{Adapta,Adapta-Eta,Adapta-Nokto,Adapta-Nokto-Eta}
- rm -rf ~/.themes/{Adapta,Adapta-Eta,Adapta-Nokto,Adapta-Nokto-Eta}
+ sudo rm -rf /usr/share/themes/{Adapta,Adapta-Noah-Eta,Adapta-Noah-Nokto,Adapta-Noah-Nokto-Eta}
+ rm -rf ~/.local/share/themes/{Adapta,Adapta-Noah-Eta,Adapta-Noah-Nokto,Adapta-Noah-Nokto-Eta}
+ rm -rf ~/.themes/{Adapta,Adapta-Noah-Eta,Adapta-Noah-Nokto,Adapta-Noah-Nokto-Eta}
  ```
 
 2. Check build-requirements:
@@ -274,7 +274,7 @@ Extra Browser Support
 
   1. [**Adapta**](https://color.firefox.com/?theme=XQAAAALUAAAAAAAAAABBKYhm849SCiazH1KEGccwS-xNVAWBvoBvsLDMFdiXwrZEjOV1NwO6XqPerXD8qZXG0Ve0ysSRDO_Fqq_1SFIUTSKR-LFqpoxVvvpw1Iq_PQcwWXZZeVXaSfmGGjCCdDkcOR3IcXyEWy-CbpLupG_UOE7d7U-IqXDfj3RCFFTYAW-cbj4Hku3mPIskyg-xRys_ul6HSl3J_IaFQA)
 
-  2. [**Adapta-Nokto**](https://color.firefox.com/?theme=XQAAAALUAAAAAAAAAABBKYhm849SCiazH1KEGccwS-xNVAVNrWV6_89xtxNWy3sM0X99YG7itotZ8sB9kkK0owJCyKXJNAryj9IJU_wtu72r-X3skC4prCeW-fnJweq-4xu9tLmeXj8UkSdZGnzwrWVCNr3bToa6Zufrkj2b7e0PqstuOnN1gdAzjKSHwEJvdQThz-ruhge78cW2PaG0mCwQPvE72cX8OQiA)
+  2. [**Adapta-Noah-Nokto**](https://color.firefox.com/?theme=XQAAAALUAAAAAAAAAABBKYhm849SCiazH1KEGccwS-xNVAVNrWV6_89xtxNWy3sM0X99YG7itotZ8sB9kkK0owJCyKXJNAryj9IJU_wtu72r-X3skC4prCeW-fnJweq-4xu9tLmeXj8UkSdZGnzwrWVCNr3bToa6Zufrkj2b7e0PqstuOnN1gdAzjKSHwEJvdQThz-ruhge78cW2PaG0mCwQPvE72cX8OQiA)
 
 
  To try legacy Chrome(ium) specific theming (`< 59.0.30xx`), pass this option:
@@ -283,7 +283,7 @@ Extra Browser Support
  --enable-chrome-legacy     enable legacy Chrome(ium) support (type: bool)
  ```
 
- The compressed `crx` files will be installed into `Adapta/chrome` and `Adapta-Nokto/chrome`.
+ The compressed `crx` files will be installed into `Adapta/chrome` and `Adapta-Noah-Nokto/chrome`.
 
  > **Note:**
  >
@@ -295,7 +295,7 @@ Extra Browser Support
  >     Background: #FAFBFC (#263238)
  >     Foreground: #263238 (#CFD8DC)
  >     Highlight:  #00BCD4
- >     Accent:     #222D32
+ >     Accent:     #282C34
  >     Accent Color from Active Page: [ ]
  >     Apply Accent Color to Window:  [*]
  >     Transparent Tabs:              [*]
@@ -314,7 +314,7 @@ Extra Dock Support
 
  > **Note:**
  >
- >   * Both Adapta and Adapta-Nokto shares the same theming.
+ >   * Both Adapta and Adapta-Noah-Nokto shares the same theming.
  >   * Don't expect too much. Plank is NOT a themeable widget for me!
 
 Extra Compositor Support
@@ -331,7 +331,7 @@ Extra Telegram Support
  --enable-telegram      enable Telegram 1.0 support (type: bool)
  ```
 
- The installer installs compressed `tdesktop-theme` files into `Adapta/telegram` and `Adapta-Nokto/telegram` directories if Telegram support is enabled.
+ The installer installs compressed `tdesktop-theme` files into `Adapta/telegram` and `Adapta-Noah-Nokto/telegram` directories if Telegram support is enabled.
  Then open the file via Telegram > Main Menu > Settings > Chat background > Choose from file.
 
  > **Note:**
@@ -362,7 +362,7 @@ Other Projects
 ------
 This is a list of community projects, related to Adapta:
  - [**Adapta KDE**](https://github.com/PapirusDevelopmentTeam/adapta-kde) - Port of this theme to KDE Plasma 5.
- - [**Discord-Adapta-Nokto**](https://github.com/Scrumplex/Discord-Adpata-Nokto) - Adapta-oriented theme for Discord
+ - [**Discord-Adapta-Noah-Nokto**](https://github.com/Scrumplex/Discord-Adpata-Nokto) - Adapta-Noah-oriented theme for Discord
 
 Work in Progress
 ----------------
@@ -388,3 +388,8 @@ Special Thanks to
  Nana-4, the developer of Materia (formerly Flat-Plat).
 
  And all supporters, thank you.
+
+
+# Instructions
+
+`./autogen.sh --prefix=/usr --disable-gnome --disable-flashback --disable-xfce --disable-mate --disable-openbox --enable-parallel --with-selection_color='#3E4451' --with-accent_color='#296871' --with-suggestion_color='#71AB5C' --with-destruction_color='#E0685C'`

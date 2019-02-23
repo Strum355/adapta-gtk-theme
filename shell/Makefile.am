@@ -1,8 +1,8 @@
 themedir     = $(datadir)/themes
-adaptadir    = $(DESTDIR)$(themedir)/Adapta
-noktodir     = $(DESTDIR)$(themedir)/Adapta-Nokto
-adaptaetadir = $(DESTDIR)$(themedir)/Adapta-Eta
-noktoetadir  = $(DESTDIR)$(themedir)/Adapta-Nokto-Eta
+adaptadir    = $(DESTDIR)$(themedir)/Adapta-Noah
+noktodir     = $(DESTDIR)$(themedir)/Adapta-Noah-Nokto
+adaptaetadir = $(DESTDIR)$(themedir)/Adapta-Noah-Eta
+noktoetadir  = $(DESTDIR)$(themedir)/Adapta-Noah-Nokto-Eta
 
 shelldir   = $(srcdir)/gnome-shell
 shell_file = \
@@ -97,7 +97,7 @@ shell_nokto_file = \
 	$(shellnoktodir)/toggle-on.svg
 if ENABLE_GNOME
 if GNOME_IS_326_OR_NEWER
-shell_nokto_gdm3_file = $(shellnoktodir)/gdm3-Adapta-Nokto.css
+shell_nokto_gdm3_file = $(shellnoktodir)/gdm3-Adapta-Noah-Nokto.css
 endif
 endif
 shell_nokto_asset_file = \
@@ -141,7 +141,7 @@ shelleta_file = \
 	$(shelletadir)/toggle-on.svg
 if ENABLE_GNOME
 if GNOME_IS_326_OR_NEWER
-shell_eta_gdm3_file = $(shelletadir)/gdm3-Adapta-Eta.css
+shell_eta_gdm3_file = $(shelletadir)/gdm3-Adapta-Noah-Eta.css
 endif
 endif
 shelleta_asset_file = \
@@ -185,7 +185,7 @@ shell_nokto_eta_file = \
 	$(shellnoktoetadir)/toggle-on.svg
 if ENABLE_GNOME
 if GNOME_IS_326_OR_NEWER
-shell_nokto_eta_gdm3_file = $(shellnoktoetadir)/gdm3-Adapta-Nokto-Eta.css
+shell_nokto_eta_gdm3_file = $(shellnoktoetadir)/gdm3-Adapta-Noah-Nokto-Eta.css
 endif
 endif
 shell_nokto_eta_asset_file = \
@@ -329,11 +329,11 @@ if GNOME_IS_326_OR_NEWER
 		$(SASSC) $(sassc_option) \
 		gnome-shell/$(GNOME_SCSS_VERSION)/gdm3.scss ../gnome-shell/gdm3-Adapta.css && \
 		$(SASSC) $(sassc_option) \
-		gnome-shell/$(GNOME_SCSS_VERSION)/gdm3-dark.scss ../gnome-shell-nokto/gdm3-Adapta-Nokto.css && \
+		gnome-shell/$(GNOME_SCSS_VERSION)/gdm3-dark.scss ../gnome-shell-nokto/gdm3-Adapta-Noah-Nokto.css && \
 		$(SASSC) $(sassc_option) \
-		gnome-shell/$(GNOME_SCSS_VERSION)/gdm3-eta.scss ../gnome-shell-eta/gdm3-Adapta-Eta.css && \
+		gnome-shell/$(GNOME_SCSS_VERSION)/gdm3-eta.scss ../gnome-shell-eta/gdm3-Adapta-Noah-Eta.css && \
 		$(SASSC) $(sassc_option) \
-		gnome-shell/$(GNOME_SCSS_VERSION)/gdm3-dark-eta.scss ../gnome-shell-nokto-eta/gdm3-Adapta-Nokto-Eta.css
+		gnome-shell/$(GNOME_SCSS_VERSION)/gdm3-dark-eta.scss ../gnome-shell-nokto-eta/gdm3-Adapta-Noah-Nokto-Eta.css
 endif
 	cd $(srcdir)/sass && \
 		$(SASSC) $(sassc_option) \
@@ -608,9 +608,9 @@ CLEANFILES += \
 if GNOME_IS_326_OR_NEWER
 CLEANFILES += \
 	$(srcdir)/gnome-shell/gdm3-Adapta.css \
-	$(srcdir)/gnome-shell-nokto/gdm3-Adapta-Nokto.css \
-	$(srcdir)/gnome-shell-eta/gdm3-Adapta-Eta.css \
-	$(srcdir)/gnome-shell-nokto-eta/gdm3-Adapta-Nokto-Eta.css
+	$(srcdir)/gnome-shell-nokto/gdm3-Adapta-Noah-Nokto.css \
+	$(srcdir)/gnome-shell-eta/gdm3-Adapta-Noah-Eta.css \
+	$(srcdir)/gnome-shell-nokto-eta/gdm3-Adapta-Noah-Nokto-Eta.css
 endif
 endif
 

@@ -1,8 +1,8 @@
 themedir     = $(datadir)/themes
-adaptadir    = $(DESTDIR)$(themedir)/Adapta
-noktodir     = $(DESTDIR)$(themedir)/Adapta-Nokto
-adaptaetadir = $(DESTDIR)$(themedir)/Adapta-Eta
-noktoetadir  = $(DESTDIR)$(themedir)/Adapta-Nokto-Eta
+adaptadir    = $(DESTDIR)$(themedir)/Adapta-Noah
+noktodir     = $(DESTDIR)$(themedir)/Adapta-Noah-Nokto
+adaptaetadir = $(DESTDIR)$(themedir)/Adapta-Noah-Eta
+noktoetadir  = $(DESTDIR)$(themedir)/Adapta-Noah-Nokto-Eta
 
 metacitydir   = $(srcdir)/metacity-1
 metacity_file = \
@@ -186,9 +186,10 @@ endif
 if ENABLE_CINNAMON
 if !ENABLE_FLASHBACK
 	$(MKDIR_P) $(adaptadir)/metacity-1
+	$(MKDIR_P) $(noktodir)/metacity-1
 	cp -Rv $(metacity_file) $(adaptadir)/metacity-1
+	cp -Rv $(metacity_file) $(noktodir)/metacity-1
 	cd $(adaptadir)
-	ln -sf ../Adapta/metacity-1 $(noktodir)/metacity-1
 	ln -sf ../Adapta/metacity-1 $(adaptaetadir)/metacity-1
 	ln -sf ../Adapta/metacity-1 $(noktoetadir)/metacity-1
 endif

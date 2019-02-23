@@ -1,8 +1,8 @@
 themedir     = $(datadir)/themes
-adaptadir    = $(DESTDIR)$(themedir)/Adapta
-noktodir     = $(DESTDIR)$(themedir)/Adapta-Nokto
-adaptaetadir = $(DESTDIR)$(themedir)/Adapta-Eta
-noktoetadir  = $(DESTDIR)$(themedir)/Adapta-Nokto-Eta
+adaptadir    = $(DESTDIR)$(themedir)/Adapta-Noah
+noktodir     = $(DESTDIR)$(themedir)/Adapta-Noah-Nokto
+adaptaetadir = $(DESTDIR)$(themedir)/Adapta-Noah-Eta
+noktoetadir  = $(DESTDIR)$(themedir)/Adapta-Noah-Nokto-Eta
 
 chromedir         = $(srcdir)/chrome
 chrome_file       = $(chromedir)/adapta-theme.crx
@@ -46,7 +46,7 @@ if ENABLE_CHROME_LEGACY
 
 	cd $(adaptadir)
 	ln -sf ../Adapta/chrome $(adaptaetadir)/chrome
-	ln -sf ../Adapta-Nokto/chrome $(noktoetadir)/chrome
+	ln -sf ../Adapta-Noah-Nokto/chrome $(noktoetadir)/chrome
 endif
 
 if ENABLE_PLANK
@@ -66,7 +66,7 @@ if ENABLE_TELEGRAM
 
 	cd $(adaptadir)
 	ln -sf ../Adapta/telegram $(adaptaetadir)/telegram
-	ln -sf ../Adapta-Nokto/telegram $(noktoetadir)/telegram
+	ln -sf ../Adapta-Noah-Nokto/telegram $(noktoetadir)/telegram
 endif
 
 if ENABLE_TWEETDECK
@@ -76,7 +76,7 @@ if ENABLE_TWEETDECK
 	cp -Rv $(tweetdeck_nokto_file) $(noktodir)/tweetdeck
 	cd $(adaptadir)
 	ln -sf ../Adapta/tweetdeck $(adaptaetadir)/tweetdeck
-	ln -sf ../Adapta-Nokto/tweetdeck $(noktoetadir)/tweetdeck
+	ln -sf ../Adapta-Noah-Nokto/tweetdeck $(noktoetadir)/tweetdeck
 endif
 
 	$(MKDIR_P) $(adaptadir)/gedit

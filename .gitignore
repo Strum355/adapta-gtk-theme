@@ -39,3 +39,6 @@ missing
 inkscape.log
 ColorDeck-adapta.cdk
 ColorDeck-adapta-nokto.cdk
+*.svg
+*.png
+*.tar
